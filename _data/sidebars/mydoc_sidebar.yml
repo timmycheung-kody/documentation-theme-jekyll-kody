@@ -1,0 +1,88 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Introduction
+      url: /mydoc_introduction.html
+      output: web, pdf
+
+    - title: Supported features
+      url: /mydoc_supported_features.html
+      output: web, pdf
+
+    - title: About the theme author
+      url: /mydoc_about.html
+      output: web, pdf
+
+    - title: Support
+      url: /mydoc_support.html
+      output: web, pdf
+
+  - title: Kody Payments API Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: Kody Payments API Documentation
+      url: /mydoc_kody_Payments_API_Documentation.html
+      output: web, pdf
+
+    - title: Client SDKs Insights 
+      url: /mydoc_client_sdk_insights.html
+      output: web, pdf
+
+    - title: Get Payments
+      url: /mydoc_release_notes_40.html
+      output: web, pdf
+
+    - title: Payment Refund
+      url: /mydoc_release_notes_30.html
+      output: web, pdf
+
+  - title: Client Libraries SDK
+    output: web, pdf
+    folderitems:
+
+    - title: Authentication
+      url: /mydoc_about_ruby_gems_etc.html
+      output: web, pdf
+
+    - title: Online Payments
+      output: web, pdf
+      folderitems:
+      - title: Initiate Payment
+        url: /mydoc_about_ruby_gems_etc.html
+        output: web, pdf
+      - title: Payment Details
+        url: /mydoc_about_ruby_gems_etc.html
+        output: web, pdf
+      - title: Get Payments
+        url: /mydoc_about_ruby_gems_etc.html
+        output: web, pdf
+
+# Copyright 2021 Google LLC
