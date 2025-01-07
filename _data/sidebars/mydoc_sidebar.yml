@@ -6,30 +6,6 @@ entries:
   version: 6.0
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
-  - title: Kody Payments API Documentation
-    output: web, pdf
-    folderitems:
-
-    - title: Kody Payments API Documentation
-      url: /mydoc_kody_Payments_API_Documentation.html
-      output: web, pdf
-
-    - title: Client SDKs Insights 
-      url: /mydoc_client_sdk_insights.html
-      output: web, pdf
 
   - title: Client Libraries SDK
     output: web, pdf
